@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_create"
+        android:icon="@drawable/ic_chat_bubble"
+        android:orderInCategory="100"
+        android:title="@string/title_explorer"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/empty"
+        android:icon="@drawable/ic_more_vert"
+        android:orderInCategory="101"
+        android:title="@string/app_name"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="@string/title_job"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/action_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/title_explorer"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

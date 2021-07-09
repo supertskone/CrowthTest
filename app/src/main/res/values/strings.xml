@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crowth!</string>
+    <string name="title_home">Home</string>
+    <string name="title_explorer">Explorer</string>
+    <string name="title_net">Net of Nets</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_job">Post a Job</string>
+    <string name="find_candidates">Find\nCandidates</string>
+    <string name="help_others">Help\nOthers</string>
+    <string name="find_jobs">Find Jobs</string>
+    <string name="sample_image">sample image</string>
+    <string name="black_lives_matter">Black Lives Matter</string>
+    <string name="help_friends_and_get_paid">Help friends and get paid</string>
+    <string name="like">like</string>
+</resources>
